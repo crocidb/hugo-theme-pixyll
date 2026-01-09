@@ -7,13 +7,20 @@
     <div class="post p2 p-responsive wrap" role="main">
         <div class="measure">
             <div class="home">
-                <div class="posts">
-                    {{ if isset .Site.Params "paginate" }}
-                        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) .Site.Params.paginate }}
-                        {{ range $paginator.Pages.ByDate.Reverse }}
-                            {{ .Render "summary" }}
-                        {{ end }}
-                </div>
+            {{ if and .IsHome (eq .Paginator.PageNumber 1) }}
+              <h2>👋 whoami</h2>
+              <p>{{ .Site.Params.HomeIntro | markdownify | safeHTML }}</p>
+            {{ end }}
+
+              <h2>🧾 posts</h2>
+
+              <div class="posts">
+                  {{ if isset .Site.Params "paginate" }}
+                      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) .Site.Params.paginate }}
+                      {{ range $paginator.Pages.ByDate.Reverse }}
+                          {{ .Render "summary" }}
+                      {{ end }}
+              </div>
             </div>
             <div class="paginatin_area">
                         {{ partial "pagination.html" . }}

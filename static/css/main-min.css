@@ -92,3 +92,9 @@ iframe {
     margin-top: 2rem;
   }
 }
+
+.post-title-home {
+  text-align: left;
+  font-size: 1.0rem !important;
+  color: #333333;
+}

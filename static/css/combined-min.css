@@ -656,7 +656,8 @@ a:hover {
 }
 @charset "UTF-8";
 body {
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+  font-family:
+    "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
   background-color: #efefef;
 }
 html,
@@ -1199,8 +1200,8 @@ Copyright (c) 2014 Daniel Eden
     local("Ubuntu"),
     url(//fonts.gstatic.com/s/ubuntu/v7/Wu5Iuha-XnKDBvqRwQzAG_esZW2xOQ-xsNqO47m55DA.woff2)
       format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
-    U+A720-A7FF;
+  unicode-range:
+    U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
   font-family: "Ubuntu";
@@ -1210,8 +1211,9 @@ Copyright (c) 2014 Daniel Eden
     local("Ubuntu"),
     url(//fonts.gstatic.com/s/ubuntu/v7/FHTuBZMvx3a4pgILB4O9UfesZW2xOQ-xsNqO47m55DA.woff2)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-    U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
   font-family: "Ubuntu";
@@ -1266,8 +1268,8 @@ Copyright (c) 2014 Daniel Eden
     local("Ubuntu-Bold"),
     url(//fonts.gstatic.com/s/ubuntu/v7/nsLtvfQoT-rVwGTHHnkeJhJtnKITppOI_IvcXXDNrsc.woff2)
       format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
-    U+A720-A7FF;
+  unicode-range:
+    U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
   font-family: "Ubuntu";
@@ -1278,8 +1280,9 @@ Copyright (c) 2014 Daniel Eden
     local("Ubuntu-Bold"),
     url(//fonts.gstatic.com/s/ubuntu/v7/0ihfXUL2emPh0ROJezvraBJtnKITppOI_IvcXXDNrsc.woff2)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-    U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
   font-family: "Ubuntu";
@@ -1334,8 +1337,8 @@ Copyright (c) 2014 Daniel Eden
     local("Ubuntu-Italic"),
     url(//fonts.gstatic.com/s/ubuntu/v7/IZYv9ktJI5s8uIr0hWnbSBTbgVql8nDJpwnrE27mub0.woff2)
       format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
-    U+A720-A7FF;
+  unicode-range:
+    U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
   font-family: "Ubuntu";
@@ -1346,8 +1349,9 @@ Copyright (c) 2014 Daniel Eden
     local("Ubuntu-Italic"),
     url(//fonts.gstatic.com/s/ubuntu/v7/WB6rgjTg_oRfj6mlXZJbbxTbgVql8nDJpwnrE27mub0.woff2)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-    U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
   font-family: "Ubuntu";
@@ -1402,8 +1406,8 @@ Copyright (c) 2014 Daniel Eden
     local("Ubuntu-BoldItalic"),
     url(//fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7SYE0-AqJ3nfInTTiDXDjU4.woff2)
       format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
-    U+A720-A7FF;
+  unicode-range:
+    U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
   font-family: "Ubuntu";
@@ -1414,8 +1418,9 @@ Copyright (c) 2014 Daniel Eden
     local("Ubuntu-BoldItalic"),
     url(//fonts.gstatic.com/s/ubuntu/v7/OMD20Sg9RTs7sUORCEN-7eL2WfuF7Qc3ANwCvwl0TnA.woff2)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-    U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
   font-family: "Lato";
@@ -1426,8 +1431,8 @@ Copyright (c) 2014 Daniel Eden
     local("Lato-Light"),
     url(//fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2)
       format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
-    U+A720-A7FF;
+  unicode-range:
+    U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
   font-family: "Lato";
@@ -1438,8 +1443,9 @@ Copyright (c) 2014 Daniel Eden
     local("Lato-Light"),
     url(//fonts.gstatic.com/s/lato/v11/fJ22-hkNvqdD_3TXCrYlmPY6323mHUZFJMgTvxaG2iE.woff2)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-    U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
   font-family: "Lato";
@@ -1450,8 +1456,8 @@ Copyright (c) 2014 Daniel Eden
     local("Lato-Black"),
     url(//fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2)
       format("woff2");
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F,
-    U+A720-A7FF;
+  unicode-range:
+    U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
 @font-face {
   font-family: "Lato";
@@ -1462,8 +1468,9 @@ Copyright (c) 2014 Daniel Eden
     local("Lato-Black"),
     url(//fonts.gstatic.com/s/lato/v11/iZxHtm8SGdMcBmb4SbFWK_Y6323mHUZFJMgTvxaG2iE.woff2)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
-    U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F,
+    U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 .hljs {
   display: block;
@@ -1777,22 +1784,30 @@ code {
   font-family: "Ubuntu Mono", Courier;
 }
 
-.post-meta {
-  font-size: 1rem !important;
-  margin-top: 0.15rem;
-}
-
 .giscus {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
 .center-post {
-  text-align: center !important;
+  text-align: left !important;
+  margin-top: -0.5rem;
+  border: 0 !important;
 }
 
 .center-post .post-meta {
-  text-align: center;
+  text-align: left;
+  font-size: 0.8rem !important;
+}
+
+@media screen and (max-width: 48em) {
+  .center-post .post-meta {
+    display: block;
+  }
+
+  .post-title-home {
+    margin-top: 0;
+  }
 }
 
 .related {
@@ -1806,4 +1821,20 @@ code {
   margin-bottom: 0.2rem;
   text-align: center;
   list-style-type: none;
+}
+
+/* Home Screen */
+.post-link {
+  text-align: left;
+}
+
+.post-title-home {
+  display: inline;
+  text-align: left;
+  font-size: 1rem !important;
+  color: #333333;
+}
+
+.post-title-home:hover {
+  color: #007199;
 }
