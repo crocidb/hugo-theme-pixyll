@@ -883,6 +883,19 @@ h6,
 .social-icons a.fa:hover {
   opacity: 1;
 }
+.social-icons a.social-icon-link {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 10px;
+  opacity: 0.8;
+  cursor: pointer;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+}
+.social-icons a.social-icon-link:hover {
+  opacity: 1;
+}
 .social-icons iframe[title="Flattr"] {
   position: relative;
   top: 0.1em;
