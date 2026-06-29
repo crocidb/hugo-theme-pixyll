@@ -1,4 +1,7 @@
 <div class="image-div">
-    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }} />
+    {{ $style := "" }}
+    {{ with .Attributes.width }}{{ $style = printf "width: %v;" . }}{{ end }}
+    {{ with .Attributes.height }}{{ $style = printf "%v height: %v;" $style . }}{{ end }}
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}" {{ end }}{{ with $style }}style="{{ . | safeCSS }}" {{ end }}{{ range $key, $value := .Attributes }}{{ if and (ne $key "width") (ne $key "height") }}{{ $key }}="{{ $value }}" {{ end }}{{ end }}/>
     <p class="image-description">{{ .Text }}</p>
 </div>
