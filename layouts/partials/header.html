@@ -7,7 +7,7 @@
       </nav>
       <div class="clearfix"></div>
       <!-- <div class="site-description"><p>{{ .Site.Params.Description }}</p></div> -->
-      <div class="site-description"><p>{{ .Site.Params.News }}</p></div>
+      <div class="site-description"><p>{{ .Site.Params.News | markdownify | safeHTML }}</p></div>
     </div>
   </div>
 </header>
