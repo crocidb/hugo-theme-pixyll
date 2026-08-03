@@ -655,9 +655,37 @@ a:hover {
   transition: all 0.2s ease;
 }
 @charset "UTF-8";
+@font-face {
+  font-family: "Literata";
+  src: url(/fonts/Literata/Literata-Light.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Literata";
+  src: url(/fonts/Literata/Literata-LightItalic.woff2) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Literata";
+  src: url(/fonts/Literata/Literata-SemiBold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Literata";
+  src: url(/fonts/Literata/Literata-SemiBoldItalic.woff2) format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
 body {
   font-family:
-    "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+    "Literata", Georgia, Cambria, "Noto Serif", ui-serif, serif;
   background-color: #efefef;
 }
 html,
@@ -865,8 +893,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 900;
+  font-family: "Literata", Georgia, Cambria, "Noto Serif", ui-serif, serif;
+  font-weight: 700;
   line-height: 1.2;
   margin: 0.414em 0 0.5em;
 }
@@ -929,8 +957,8 @@ h6,
   .p,
   p,
   li {
-    font-size: 1.25rem;
-    line-height: 1.8;
+    font-size: 1.15rem;
+    line-height: 1.7;
   }
   .small {
     font-size: 1rem;
@@ -1693,6 +1721,15 @@ hr {
 .py2 {
   padding-bottom: 0.2em;
   margin-bottom: 0;
+}
+
+.post-header h1.py2 {
+  padding-bottom: 0;
+}
+
+.post-header .post-meta {
+  font-size: 0.9rem;
+  padding-top: 0;
 }
 
 iframe {
