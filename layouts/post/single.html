@@ -2,14 +2,17 @@
 <div class="site-wrap">
   {{ partial "header.html" . }}
   <div class="post p2 p-responsive wrap" role="main">
-    <div class="measure">
+    <div class="measure h-entry">
       <div class="post-header mb2">
-        <h1 class="py2">{{ .Title }}</h1>
-        <span class="post-meta">{{ .Date.Format "Jan 2, 2006" }} {{ if isset .Params "author" }} by {{ .Params.author }} {{ end }}</span><br>
+        <h1 class="py2 p-name">{{ .Title }}</h1>
+        <span class="post-meta">
+          <a class="u-url" href="{{ .Permalink }}"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "Jan 2, 2006" }}</time></a>
+          {{ with (.Params.author | default .Site.Params.author) }} by <a class="p-author h-card" href="{{ $.Site.BaseURL }}">{{ . }}</a>{{ end }}
+        </span><br>
         {{ $baseurl := .Site.BaseURL }}
       </div>
 
-      <article class="post-content">
+      <article class="post-content e-content">
       {{ .Content }}
       </article>
 
@@ -17,10 +20,16 @@
       <p class="post-meta">{{ i18n "tags" }}:&nbsp;
         {{ range $i, $e := .Params.tags }}
             {{if $i}},&nbsp;{{end}}
-            <a href="{{ $baseurl }}{{ $.Site.LanguagePrefix }}/tags/{{ . }}">{{ . }}</a>
+            <a class="p-category" rel="tag" href="{{ $baseurl }}{{ $.Site.LanguagePrefix }}/tags/{{ . }}">{{ . }}</a>
         {{ end }}
       </p>
       {{ end }} {{ end }}
+
+      {{ with .Params.syndication }}
+      <p class="post-meta">Also on:&nbsp;
+        {{ range $i, $url := . }}{{ if $i }},&nbsp;{{ end }}<a class="u-syndication" href="{{ $url }}">{{ (urls.Parse $url).Host }}</a>{{ end }}
+      </p>
+      {{ end }}
 
       {{ partial "related.html" . }}
 

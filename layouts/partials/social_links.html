@@ -1,12 +1,12 @@
 <nav class="social-icons icons">
 <a class="social-icon-link" href="/index.xml"><i class="fa-solid fa-rss"></i></a>
 {{ if isset .Site.Params "bluesky_url" }}
-<a class="social-icon-link" href="{{ .Site.Params.bluesky_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i></a>
+<a class="social-icon-link" href="{{ .Site.Params.bluesky_url }}" target="_blank" rel="me noopener"><i class="fa-brands fa-bluesky"></i></a>
 {{ end }}
 {{ if isset .Site.Params "mastodon_url" }}
-<a class="social-icon-link" href="{{ .Site.Params.mastodon_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-mastodon"></i></a>
+<a class="social-icon-link" href="{{ .Site.Params.mastodon_url }}" target="_blank" rel="me noopener"><i class="fa-brands fa-mastodon"></i></a>
 {{ end }}
 {{ if isset .Site.Params "github_url" }}
-<a class="social-icon-link" href="{{ .Site.Params.github_url }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+<a class="social-icon-link" href="{{ .Site.Params.github_url }}" target="_blank" rel="me noopener"><i class="fa-brands fa-github"></i></a>
 {{ end }}
 </nav>

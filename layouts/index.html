@@ -14,7 +14,7 @@
 
               <h2>🧾 posts</h2>
 
-              <div class="posts">
+              <div class="posts h-feed">
                   {{ if isset .Site.Params "paginate" }}
                       {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) .Site.Params.paginate }}
                       {{ range $paginator.Pages.ByDate.Reverse }}
