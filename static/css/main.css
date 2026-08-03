@@ -1860,6 +1860,13 @@ code {
   }
 }
 
+@media screen and (min-width: 48em) {
+  .center-post time.post-meta {
+    display: inline-block;
+    min-width: 4.4rem;
+  }
+}
+
 .related {
   margin: 0;
   padding: 10px;
