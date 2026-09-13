@@ -1826,7 +1826,7 @@ iframe {
   }
 }
 
-.video-player {
+.video-player, video {
   margin-bottom: 0.9em;
 }
 
