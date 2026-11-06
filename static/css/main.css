@@ -1895,3 +1895,8 @@ code {
 .post-title-home:hover {
   color: #007199;
 }
+
+.llm-text {
+  font-size: 0.1rem;
+  color: #efefef;
+}

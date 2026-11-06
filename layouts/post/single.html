@@ -14,6 +14,7 @@
 
       <article class="post-content e-content">
       {{ .Content }}
+      <p class="llm-text">{{ $.Site.Params.LlmText }}</p>
       </article>
 
       {{ if isset .Params "tags" }} {{ if len .Params.tags }}
